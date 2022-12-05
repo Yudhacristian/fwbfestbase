@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file\/251951678e4136fbf575c.jpg">
+  <img src="https://telegra.ph/file\/6f1b6ad4b94246f47726a.jpg">
 </p>
 
 #### Installation
@@ -24,7 +24,7 @@ python3 main.py
 * `{username}` - Username
 * `{fullname}` - Username
 
-#### MORE_INFORMATION
+#### MORE INFORMATION
 
 
 <p align="center">
