@@ -17,7 +17,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
                 if coin >= config.biaya_kirim:
                     coin = user.coin - config.biaya_kirim
                 else:
-                    return await msg.reply(f'🙅🏻‍♀️ post gagal terkirim. kamu hari ini telah mengirim ke menfess sebanyak {menfess}/{config.batas_kirim} kali.serta coin mu kurang untuk mengirim menfess diluar batas harian., kamu dapat mengirim menfess kembali pada hari esok.\n\n waktu reset jam 1 pagi', quote=True)
+                    return await msg.reply(f'🗣️🙅 post gagal terkirim. kamu hari ini telah mengirim ke menfess sebanyak {menfess}/{config.batas_kirim} kali.serta coin mu kurang untuk mengirim menfess diluar batas harian., kamu dapat membeli coin agar tidak ada batas limit harian dengan klik /beli .\n\n waktu reset jam 1 pagi', quote=True)
 
         if key == hastag[0]:
             picture = config.pic_girl
