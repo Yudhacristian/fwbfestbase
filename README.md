@@ -23,10 +23,11 @@ python3 main.py
 
 #### SPECIAL_THANKS 
 
-t.me/pySmartDL
-t.me/xflsbdrl
+* t.me/pySmartDL
+* t.me/xflsbdrl
+* github.com/jokokendi
 
 #### GABUNG KE BASE
 
-t.me/fewb3sss
-t.me/fewbess
+* t.me/fewb3sss
+* t.me/fewbess
