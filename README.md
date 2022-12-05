@@ -1,4 +1,4 @@
-### Installation
+#### Installation
 
 #### Deploy in your VPS
 ````bash
@@ -16,13 +16,16 @@ python3 main.py
 * `{username}` - Username
 * `{fullname}` - Username
 
-#### SPECIAL_THANKS 
+#### MORE_INFORMATION
 
-* t.me/pySmartDL
-* t.me/xflsbdrl
-* github.com/jokokendi
 
-#### GABUNG KE BASE
+<p align="center">
+<a href="https://telegram.me/fewbess"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 
-* t.me/fewb3sss
-* t.me/fewbess
+<p align="center">
+<a href="https://telegram.me/yudzonee"><img src="https://img.shields.io/badge/%20Anonymous-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
+
+<h3 align="center">
+    ─「 ᴄʀᴇᴅɪᴛs 」─
