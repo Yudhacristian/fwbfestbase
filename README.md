@@ -20,3 +20,5 @@ python3 main.py
 * `{mention}` - Mention the user
 * `{username}` - Username
 * `{fullname}` - Username
+
+#### SPECIAL_THANKS 
