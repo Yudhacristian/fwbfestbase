@@ -54,7 +54,7 @@ class Bot(Client):
             BotCommand('status', '🍃 check status'), BotCommand('beli', '💰 beli koin untuk bot'), BotCommand('talent', '👙 talent konten / vcs'),
             BotCommand('daddysugar', '👔 daddy sugar trusted'), BotCommand('moansgirl', '🧘‍♀️ moans girl'),
             BotCommand('moansboy', '🧘 moans boy'), BotCommand('gfrent', '🤵 girl friend rent'),
-            BotCommand('bfrent', '🤵 boy friend rent')
+            BotCommand('bfrent', '🤵 boy friend rent') BotCommand('cekpenipu '👀 daftar penipu'),
         ], BotCommandScopeAllPrivateChats())
         
         print('BOT TELAH AKTIF')
