@@ -24,7 +24,7 @@ python3 main.py
 </p>
 
 <p align="center">
-<a href="https://telegram.me/yudzonee"><img src="https://img.shields.io/badge/%20Anonymous-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/yudzonee"><img src="https://img.shields.io/badge/%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <h3 align="center">
