@@ -46,7 +46,7 @@ pic_girl = os.environ.get("PIC_GIRL")
 start_img = os.environ.get("START_IMG")
 # =========================================================== #
 group = os.environ.get("GROUP")
-pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
+pesan_join = os.environ.get("PESAN_JOIN", "Kamu tidak dapat menggunakan bot silahkan beli coin melalui /beli atau join channel terlebih dahulu")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", "{mention}, pesan mu gagal terkirim silahkan klik /start lalu pilih menu menfes")
 
