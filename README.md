@@ -23,10 +23,10 @@ python3 main.py
 
 #### SPECIAL_THANKS 
 
-* `{url_telegram} t.me/pySmartDL
-* `{url_telegram} t.me/xflsbdrl
+t.me/pySmartDL
+t.me/xflsbdrl
 
 #### GABUNG KE BASE
 
-* `{url_telegram} t.me/fewb3sss
-* `{url_telegram} t.me/fewbess
+t.me/fewb3sss
+t.me/fewbess
