@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file\/6f1b6ad4b94246f47726a.jpg">
+  <img src="https://telegra.ph/FWB-12-05">
 </p>
 
 #### Installation
