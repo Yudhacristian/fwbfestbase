@@ -35,10 +35,10 @@ python3 main.py
 <p align="center">
 <a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
 <a href="https://github.com/pytgcalls/pytgcalls"> <img src="https://img.shields.io/badge/PyTgCalls-black?style=for-the-badge&logo=github" alt="Pytgcalls" /> </a>
-<a href=""> <img src="https://img.shields.io/badge/CallsMusic-black?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
-<a href="https://github.com/Yudhacristian"> <img src="https://img.shields.io/badge/Anonymous-black?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
-<a href=""> <img src="https://img.shields.io/badge/Shikhar-black?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
-<a href=""> <img src="https://img.shields.io/badge/TheHamkerCat-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
+<a href=""> <img src="https://img.shields.io/badge/Unknown-purple?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
+<a href="https://github.com/Yudhacristian"> <img src="https://img.shields.io/badge/Yudhacristian-blue?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
+<a href=""> <img src="https://img.shields.io/badge/Unknown-red?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
+<a href=""> <img src="https://img.shields.io/badge/Unknown-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
 </p>
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [FWB UNIVERSE](https://t.me/fewb3sss) ғᴏʀ [FWB BOT](https://t.me/FwbsssBot)_ </b>
