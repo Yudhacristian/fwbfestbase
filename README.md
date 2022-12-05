@@ -3,14 +3,14 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/FWB-12-05.jpg">
+  <img src="https://telegra.ph/file/8098c9b0f89382b8c74a5.jpg">
 </p>
 
 #### Installation
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/Yudhacristian/fwbfestbase cd Menfess-Bot
+git clone https://github.com/Yudhacristian/fwbfestbase cd FwbsssBot
 pip3 install -r requirements.txt
 python3 main.py
 ````
