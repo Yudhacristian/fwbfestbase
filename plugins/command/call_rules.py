@@ -50,6 +50,7 @@ async def cbstart(bot: Client, callback_query: CallbackQuery):
                  InlineKeyboardButton("Channel 📢", url=f"t.me/{join.username}")
                  ],
                  [
+                 InlineKeyboardButton("🎁 DONASI 🎁 ", url=f"https://saweria.co/DonasiBuatFwbsssBot"),
                  InlineKeyboardButton("🌟 MENU MENFESS 🌟", callback_data="menu")
                  ]
                 ]
