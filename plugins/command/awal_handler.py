@@ -13,7 +13,7 @@ async def start_handler(client: Client, msg: types.Message):
         try:
             await msg.reply_photo(
             photo = config.start_img,
-            caption=f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}. Silakan sampaikan pesanmu atau pap cute atau video konten positif kamu\n\nSebelum menggunakan silakan baca rules terlebih dahulu ya😉\n\nButuh bantuan? Hubungi @{config.owner}\n\n𝓣𝓮𝓽𝓪𝓹 𝓼𝓪𝓷𝓽𝓪𝓲 𝓼𝓪𝓶𝓫𝓲𝓵 𝓷𝓰𝓮𝓶𝓮𝓷𝓯𝓮𝓼𝓼 ☕",
+            caption=f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}.jika kalian puas dengan bot ini\n\nsilahkan donasikan di menu bawah\n\nButuh bantuan? Hubungi @{config.owner}\n\nbaca rules terlebih dahulu jika melanggar ban hukuman nya",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
@@ -25,6 +25,7 @@ async def start_handler(client: Client, msg: types.Message):
                  InlineKeyboardButton("Channel 📢", url=f"t.me/{join.username}")
                  ],
                  [
+                 InlineKeyboardButton("🎁 DONASI 🎁 ", url=f"https://saweria.co/DonasiBuatFwbsssBot")
                  InlineKeyboardButton("🌟 MENU MENFESS 🌟", callback_data="menu")
                  ]
                 ]
@@ -32,7 +33,7 @@ async def start_handler(client: Client, msg: types.Message):
                )
         except:
             await msg.reply(
-            f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}. Silakan sampaikan pesanmu atau pap cute atau video konten positif kamu\n\nSebelum menggunakan silakan baca rules terlebih dahulu ya😉\n\nButuh bantuan? Hubungi @{config.owner}\n\n𝓣𝓮𝓽𝓪𝓹 𝓼𝓪𝓷𝓽𝓪𝓲 𝓼𝓪𝓶𝓫𝓲𝓵 𝓷𝓰𝓮𝓶𝓮𝓷𝓯𝓮𝓼𝓼 ☕",
+            f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}.jika kalian puas dengan bot ini\n\nsilahkan donasikan di menu bawah\n\nButuh bantuan? Hubungi @{config.owner}\n\nbaca rules terlebih dahulu jika melanggar ban hukuman nya",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
@@ -44,6 +45,7 @@ async def start_handler(client: Client, msg: types.Message):
                  InlineKeyboardButton("Channel 📢", url=f"t.me/{join.username}")
                  ],
                  [
+                 InlineKeyboardButton("🎁 DONASI 🎁 ", url=f"https://saweria.co/DonasiBuatFwbsssBot")
                  InlineKeyboardButton("🌟 MENU MENFESS 🌟", callback_data="menu")
                  ]
                 ]
@@ -75,6 +77,7 @@ async def statistik_handler(client: Helper, id_bot: int):
     pesan += f"▪️Moans boy: {len(bot.moansboy)}\n"
     pesan += f"▪️Girlfriend rent: {len(bot.gfrent)}\n"
     pesan += f"▪️Boyfriend rent: {len(bot.bfrent)}\n"
+    pesan += f"▪️Daftar penipu: {len(bot.cek)}\n"
     pesan += f"▪️Banned: {len(bot.ban)}\n\n"
     pesan += f"🔰Status bot: {'AKTIF' if bot.bot_status else 'TIDAK AKTIF'}</b>"
     await client.message.reply_text(pesan, True, enums.ParseMode.HTML)
@@ -137,6 +140,7 @@ async def help_handler(client, msg):
     if member.status == 'owner':
         pesan += '\n=====OWNER COMMAND=====\n'
         pesan += '/tf_coin — transfer coin\n'
+        pesan += '/cek — melihat daftar penipu bot\n'
         pesan += '/settings — melihat settingan bot\n'
         pesan += '/list_admin — melihat list admin\n'
         pesan += '/list_ban — melihat list banned\n'
@@ -148,6 +152,7 @@ async def help_handler(client, msg):
         pesan += '/addgirl — menambahkan talent moans girl\n'
         pesan += '/addboy — menambahkan talent moans boy\n'
         pesan += '/addgf — menambahkan talent girlfriend rent\n'
+        pesan += '/addpenipu — menambahkan daftar penipu\n'
         pesan += '/addbf — menambahkan talent boyfriend rent\n'
         pesan += '/hapus — menghapus talent\n'
         pesan += '\n=====BROADCAST OWNER=====\n'
