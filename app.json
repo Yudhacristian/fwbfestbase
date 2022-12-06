@@ -6,8 +6,8 @@
     "menfess",
     "fwb"
   ],
-  "repository": "https://github.com/davi78/menfess-bot",
-  "logo": "https://telegra.ph/file/a24d7daa6a191d6eb7176.jpg",
+  "repository": "https://github.com/Yudhacristian/fwbfestbase",
+  "logo": "https://telegra.ph/file/8098c9b0f89382b8c74a5.jpg",
   "env": {
     "BOT_TOKEN": {
       "description": "Masukkan token bot kamu, didapatkan dari @Botfather",
@@ -103,11 +103,11 @@
     },
     "PIC_BOY": {
       "description": "gambar fwb boy",
-      "value": "https://telegra.ph/file/ee4e4864bc4ebfb7819be.jpg"
+      "value": "https://telegra.ph/file/8098c9b0f89382b8c74a5.jpg"
     },
     "PIC_GIRL": {
       "description": "gambar fwb girl",
-      "value": "https://telegra.ph/file/2562988d57d7f61384f24.jpg"
+      "value": "https://telegra.ph/file/8098c9b0f89382b8c74a5.jpg"
     },
     "PESAN_JOIN": {
       "description": "pesan join grup, atau akses ditolak",
@@ -115,7 +115,7 @@
     },
     "OWNER": {
       "description": "Username owner tanpa @",
-      "value": "pySmartDL"
+      "YudZone"
     },
     "GAGAL_KIRIM": {
       "description": "pesan ketika hastag yang diketik tidak sesuai",
