@@ -79,7 +79,7 @@ class Helper():
 
     async def send_to_channel_log(self, type: str = None, link: str = None):
         if type == 'log_daftar':
-            pesan = "<b>📊DATA USER BERHASIL DITAMBAHKAN DIDATABASE</b>\n"
+            pesan = "<b>📊DATA USER BERHASIL MASUK DATABASE</b>\n"
             pesan += f"├ Nama -: <b>{await self.escapeHTML(self.fullname)}</b>\n"
             pesan += f"├ ID -: <code>{self.user_id}</code>\n"
             pesan += f"├ Username -: {self.username}\n"
