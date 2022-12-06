@@ -6,7 +6,7 @@ from plugins import Database
 
 
 async def tambah_penipu_handler(client: Client, msg: types.Message):
-    if re.search(r"^[\/]penipu(\s|\n)*$", msg.text):
+    if re.search(r"^[\/]addpenipu(\s|\n)*$", msg.text):
         return await msg.reply_text(
             text="<b>Cara penggunaan tambah penipu</b>\n\n<code>/penipu id_user</code>\n\nContoh :\n<code>/admin 121212021</code>", quote=True,
             parse_mode=enums.ParseMode.HTML
@@ -23,7 +23,7 @@ async def tambah_penipu_handler(client: Client, msg: types.Message):
         if await db.cek_user_didatabase():
             status = [
                 'admin', 'owner', 'talent', 'daddy sugar', 'moans girl',
-                'moans boy', 'girlfriend rent', 'boyfriend rent'
+                'moans boy', 'girlfriend rent', 'boyfriend rent', 'penipu'
             ]
             member = db.get_data_pelanggan()
             if member.status in status:
@@ -54,7 +54,7 @@ async def tambah_penipu_handler(client: Client, msg: types.Message):
             )
     else:
         return await msg.reply_text(
-            text="<b>Cara penggunaan tambah penipu</b>\n\n<code>/admin id_user</code>\n\nContoh :\n<code>/admin 121212021</code>", quote=True,
+            text="<b>Cara penggunaan tambah penipu</b>\n\n<code>/addpenipu id_user</code>\n\nContoh :\n<code>/admin 121212021</code>", quote=True,
             parse_mode=enums.ParseMode.HTML
         )
 
@@ -65,14 +65,14 @@ async def hapus_penipu_handler(client: Client, msg: types.Message):
             text="<b>Cara penggunaan mencabut status penipu</b>\n\n<code>/hapuspenipu id_user</code>\n\nContoh :\n<code>/hapuspenipu 121212021</code>", quote=True,
             parse_mode=enums.ParseMode.HTML
         )
-    y = re.search(r"^[\/]unadmin(\s|\n)*(\d+)$", msg.text)
+    y = re.search(r"^[\/]hapuspenipu(\s|\n)*(\d+)$", msg.text)
     if y:
         target = y.group(2)
         db = Database(int(target))
         if await db.cek_user_didatabase():
             status = [
                 'owner', 'talent', 'daddy sugar', 'moans girl',
-                'moans boy', 'girlfriend rent', 'boyfriend rent'
+                'moans boy', 'girlfriend rent', 'boyfriend rent', 'penipu'
             ]
             member = db.get_data_pelanggan()
             if member.status in status:
