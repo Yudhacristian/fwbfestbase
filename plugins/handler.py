@@ -3,7 +3,7 @@ import re
 from pyrogram import Client, filters
 from pyrogram.types import Message, CallbackQuery
 from plugins import Database, Helper
-from plugins import *
+from plugins.command import *
 from bot import Bot
 import config
 
