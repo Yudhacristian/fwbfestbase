@@ -2,7 +2,7 @@ import config
 import re
 
 from pyrogram import Client, types, enums
-from plugins import Database, Helper
+from plugins import *
 
 async def send_with_pic_handler(client: Client, msg: types.Message, key: str, hastag: list):
     db = Database(msg.from_user.id)
