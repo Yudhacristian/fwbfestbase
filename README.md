@@ -11,7 +11,7 @@
 #### Deploy on Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jokokendi/fwb)</br>
 
-#### Deploy on Kontol bapak kau
+#### Deploy on KontolBapakmu
 [![Deploy](https://www.kontolbapakmu.com/deploy/button.svg)](https://kontolbapakmu.com/deploy?template=https://github.com/Yudhacristian/fwbfestbase)</br>
 
 
