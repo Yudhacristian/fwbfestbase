@@ -10,7 +10,7 @@
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/Yudhacristian/fwbfestbase cd FwbsssBot
+git clone https://github.com/Yudhacristian/fwbfestbase cd fwbfestbase
 pip3 install -r requirements.txt
 python3 main.py
 ````
