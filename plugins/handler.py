@@ -104,6 +104,10 @@ async def on_message(client: Client, msg: Message):
                 if uid == config.id_admin:
                     return await tambah_admin_handler(client, msg)
 
+            elif re.search(r"^[\/]penipu", command):  # menambahkan penipu baru
+                if uid == config.id_admin:
+                    return await tambah_penipu_handler(client, msg)
+
             # menghapus admin yang telah diangkat
             elif re.search(r"^[\/]unadmin", command):
                 if uid == config.id_admin:
