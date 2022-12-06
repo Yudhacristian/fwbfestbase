@@ -46,9 +46,9 @@ pic_girl = os.environ.get("PIC_GIRL")
 start_img = os.environ.get("START_IMG")
 # =========================================================== #
 group = os.environ.get("GROUP")
-pesan_join = os.environ.get("PESAN_JOIN", "Kamu tidak dapat menggunakan bot silahkan beli coin melalui /beli atau join channel terlebih dahulu")
+pesan_join = os.environ.get("PESAN_JOIN", "Kamu tidak dapat menggunakan bot silahkan /beli coin atau join channel terlebih dahulu")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", "{mention}, pesan mu gagal terkirim silahkan klik /start lalu pilih menu menfes")
 
-menu_msg = os.environ.get("PESAN_MENU", "#fwbgirl Untuk cewe\n#fwbboy Untuk cowo\n#fwbadlt Untuk 18+\n#fwbspill Untuk pamer\n#fwbstory Untuk bercerita / curhat\n#ask Untuk bertanya\n\n🗣️ Wajib username ya fewbess")
+menu_msg = os.environ.get("PESAN_MENU", "#fwbgirl Untuk cewe\n#fwbboy Untuk cowo\n#fwbadlt Untuk 18+\n#fwbspill Untuk pamer\n#fwbstory Untuk bercerita / curhat\n#ask Untuk bertanya\n\n🗣️contoh t.me/YudZone")
 
