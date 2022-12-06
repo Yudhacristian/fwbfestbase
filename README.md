@@ -8,12 +8,6 @@
 
 #### Installation
 
-#### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jokokendi/fwb)</br>
-
-#### Deploy on KontolBapakmu
-[![Deploy](https://www.kontolbapakmu.com/deploy/button.svg)](https://kontolbapakmu.com/deploy?template=https://github.com/Yudhacristian/fwbfestbase)</br>
-
 
 #### Deploy in your VPS
 ````bash
@@ -58,3 +52,7 @@ python3 main.py
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [FWB UNIVERSE](https://t.me/fewb3sss) ғᴏʀ [FWB BOT](https://t.me/FwbsssBot)_ </b>
 
+
+<p align="center">
+  <img src="https://telegra.ph/file/b6c43326d2aba54b16132.jpg">
+</p>
