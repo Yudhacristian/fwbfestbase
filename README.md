@@ -46,7 +46,7 @@ python3 main.py
 <a href=""> <img src="https://img.shields.io/badge/Unknown-purple?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
 <a href="https://github.com/Yudhacristian"> <img src="https://img.shields.io/badge/Yudhacristian-blue?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
 <a href=""> <img src="https://img.shields.io/badge/Unknown-red?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
-<a href=""> <img src="https://img.shields.io/badge/Unknown-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
+<a href="https://github.com/TeamKillerX"> <img src="https://img.shields.io/badge/TeamKillerX-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
 </p>
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [FWB UNIVERSE](https://t.me/fewb3sss) ғᴏʀ [FWB BOT](https://t.me/FwbsssBot)_ </b>
