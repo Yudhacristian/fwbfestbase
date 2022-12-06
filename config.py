@@ -38,7 +38,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "50"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "50"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#ask #adlt #spill #srch #stry #ange").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#fwbadlt #fwbboy #fwbspill #fwbgirl #ask #fwbstory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.environ.get("PIC_BOY", "https://graph.org/file/ac477535b151c1b787237.jpg")
