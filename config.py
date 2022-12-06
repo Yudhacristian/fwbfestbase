@@ -41,8 +41,8 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "50"))
 hastag = os.environ.get("HASTAG", "#ask #adlt #spill #srch #stry #ange").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/78ec684dd06670add14f7.jpg")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/file/8f7120ffd758da36d1cd2.jpg")
+pic_boy = os.environ.get("PIC_BOY")
+pic_girl = os.environ.get("PIC_GIRL")
 start_img = os.environ.get("START_IMG")
 # =========================================================== #
 group = os.environ.get("GROUP")
