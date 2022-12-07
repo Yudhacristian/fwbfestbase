@@ -36,9 +36,9 @@
 </h3>
 
 <p align="center">
-<a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
+<a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-yellow?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
 <a href="https://github.com/pytgcalls/pytgcalls"> <img src="https://img.shields.io/badge/PyTgCalls-black?style=for-the-badge&logo=github" alt="Pytgcalls" /> </a>
-<a href="https://t.me/testessg"> <img src="https://img.shields.io/badge/FwbProjects-purple?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
+<a href="https://github.com/jokokendi"> <img src="https://img.shields.io/badge/Jokokendi-purple?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
 <a href="https://github.com/Yudhacristian"> <img src="https://img.shields.io/badge/Yudhacristian-blue?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
 <a href="https://t.me/RendyProjects"> <img src="https://img.shields.io/badge/RendyProjects-red?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
 <a href="https://github.com/TeamKillerX"> <img src="https://img.shields.io/badge/TeamKillerX-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
