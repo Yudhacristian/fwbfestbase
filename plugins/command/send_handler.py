@@ -21,13 +21,13 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
 
         if key == hastag[0]:
             picture = config.pic_girl
-        elif key == hastag[1]:
+        if key == hastag[1]:
             picture = config.pic_boy
-        elif key == hastag[2]:
+        if key == hastag[2]:
             picture = config.pic_adlt
-        elif key == hastag[3]:
+        if key == hastag[3]:
             picture = config.pic_spill
-        elif key == hastag[4]:
+        if key == hastag[4]:
             picture = config.pic_story
         elif key == hastag[5]:
             picture = config.pic_ask

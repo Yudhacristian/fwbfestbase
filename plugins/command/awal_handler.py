@@ -13,7 +13,7 @@ async def start_handler(client: Client, msg: types.Message):
         try:
             await msg.reply_photo(
             photo = config.start_img,
-           
+            caption=f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}. Silakan sampaikan pesanmu atau pap cute atau video konten positif kamu\n\nSebelum menggunakan silakan baca rules terlebih dahulu ya😉",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
@@ -33,7 +33,7 @@ async def start_handler(client: Client, msg: types.Message):
                )
         except:
             await msg.reply(
-            
+            text=f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}. Silakan sampaikan pesanmu atau pap cute atau video konten positif kamu\n\nSebelum menggunakan silakan baca rules terlebih dahulu ya😉",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
