@@ -43,6 +43,9 @@ hastag = os.environ.get("HASTAG", "#fwbadlt #fwbboy #fwbspill #fwbgirl #ask #fwb
 
 pic_boy = os.environ.get("PIC_BOY", "https://graph.org/file/ac477535b151c1b787237.jpg")
 pic_girl = os.environ.get("PIC_GIRL", "https://graph.org/file/0a92b47c0aada48caf6a4.jpg")
+pic_ask = os.environ.get("PIC_ASK",
+pic_spill = os.environ.get("PIC_SPILL",
+pic_story = os.environ.get("PIC_STORY",
 start_img = os.environ.get("START_IMG")
 # =========================================================== #
 group = os.environ.get("GROUP")
