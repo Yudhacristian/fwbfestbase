@@ -37,7 +37,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
         entities = msg.entities or msg.caption_entities
 #        if config.pic_boy.endswith(".jpg") or config.pic_girl.endswith(".jpg") or config.pic_adt.endswith(".jpg") or config.pic_spill.endswith(".jpg") or config.pic_story.endswith(".jpg") or config.pic_ask.endswith(".jpg"):
             try:
-                kirim = await client.send_photo(config.channel_1, picture, caption, caption_entities=entities)
+                kirim = await client.send_message(config.channel_1, caption)
 #            except:
 #                kirim =await client.send_message(config.channel_1, caption)
         await helper.send_to_channel_log(type="log_channel", link=link + str(kirim.id))
