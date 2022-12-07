@@ -6,18 +6,6 @@
   <img src="https://telegra.ph/file/c9d0ed08ee10fec1fdf98.png">
 </p>
 
-#### Installation
-
-#### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yudhacristian/fwbfestbase)</br>
-
-#### Deploy in your VPS
-````bash
-git clone https://github.com/Yudhacristian/fwbfestbase cd fwbfestbase
-pip3 install -r requirements.txt
-python3 main.py
-````
-
 #### START_MESSAGE | FORCE_SUB_MESSAGE
 
 * `{first_name}` - User first name
