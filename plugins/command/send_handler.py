@@ -18,24 +18,22 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
                     coin = user.coin - config.biaya_kirim
                 else:
                     return await msg.reply(f'🙅🏻‍♀️ post gagal terkirim. kamu hari ini telah mengirim ke menfess sebanyak {menfess}/{config.batas_kirim} kali.serta coin mu kurang untuk mengirim menfess. Kamu bisa top up coin agar limit harian kamu tak terbatas silahkan klik /beli.\n\n waktu reset jam 1 pagi', quote=True)
-
-        if key == hastag[0]:
-            picture = config.pic_girl
-        if key == hastag[1]:
-            picture = config.pic_boy
-        if key == hastag[2]:
-            picture = config.pic_adlt
-        if key == hastag[3]:
-            picture = config.pic_spill
-        if key == hastag[4]:
-            picture = config.pic_story
-        elif key == hastag[5]:
-            picture = config.pic_ask
         
         link = await get_link()
         caption = msg.text or msg.caption
         entities = msg.entities or msg.caption_entities
-        kirim = await client.send_photo(config.channel_1, picture, caption, caption_entities=entities)
+        if hatag[0]:
+            kirim = await client.send_photo(config.channel_1, config.pic_girl, caption, caption_entities=entities)
+        if hastag[1]:
+            kirim = await client.send_photo(config.channel_1, config.pic_boy, caption, caption_entities=entities)
+        if hastag[2]:
+            kirim = await client.send_photo(config.channel_1, config.pic_adlt, caption, caption_entities=entities)
+        if hastag[3]:
+            kirim = await client.send_photo(config.channel_1, config.pic_spill, caption, caption_entities=entities)
+        if hastag[4]:
+            kirim = await client.send_photo(config.channel_1, config.pic_story, caption, caption_entities=entities)
+        if hastag[5]:
+            kirim = await client.send_photo(config.channel_1, config.pic_ask, caption, caption_entities=entities)
         await helper.send_to_channel_log(type="log_channel", link=link + str(kirim.id))
         await db.update_menfess(coin, menfess, all_menfess)
         await msg.reply(f"pesan telah berhasil terkirim. hari ini kamu telah mengirim menfess sebanyak {menfess + 1}/{config.batas_kirim} . kamu dapat mengirim menfess sebanyak {config.batas_kirim} kali dalam sehari\n\nlakuka topup coin dengan klik /beli agar tanpa batas limit harian \n<a href='{link + str(kirim.id)}'>check pesan kamu</a>")
