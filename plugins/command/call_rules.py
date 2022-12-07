@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
 import config
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+from plugins import *
 
 @Client.on_callback_query(filters.regex("rules"))
 async def cbrules(bot: Client, callback_query: CallbackQuery):
