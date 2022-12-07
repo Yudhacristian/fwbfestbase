@@ -11,6 +11,7 @@ async def cbrules(bot: Client, callback_query: CallbackQuery):
                 [
                  [
                  InlineKeyboardButton("Kembali ⬅️", callback_data="startt"),
+                 InlineKeyboardButton("🌟 MENU MENFESS 🌟", callback_data="menu")
                 ]
                 ]
                 )
@@ -27,6 +28,7 @@ async def cbpenjelasan(bot: Client, callback_query: CallbackQuery):
                 [
                  [
                  InlineKeyboardButton("Kembali ⬅️", callback_data="startt"),
+                 InlineKeyboardButton("🌟 MENU MENFESS 🌟", callback_data="menu")
                 ]
                 ]
                 )
