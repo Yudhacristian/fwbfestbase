@@ -2,9 +2,7 @@
   "name": "yudfwb",
   "description": "mengirim pesan ke channel telegram secara anonymous",
   "keywords": [
-    "telegram",
-    "menfess",
-    "fwb"
+    "yudfwb"
   ],
   "repository": "https://github.com/Yudhacristian/fwbfestbase",
   "logo": "https://telegra.ph/file/8098c9b0f89382b8c74a5.jpg",
@@ -39,15 +37,15 @@
     },
     "ID_ADMIN": {
       "description": "ID OWNER BOT MENFESS",
-      "value": ""
+      "value": "5039480382"
     },
     "BATAS_KIRIM": {
       "description": "Batas kirim menfess perhari",
-      "value": "5"
+      "value": "3"
     },
     "BATAS_TALENT": {
       "description": "Batas top talent",
-      "value": "10"
+      "value": "50"
     },
     "BATAS_DADDY_SUGAR": {
       "description": "Batas top talent",
@@ -99,15 +97,15 @@
     },
     "HASTAG": {
       "description": "menambahkan hastag, dipisahkan dengan spasi (#fwbgirl wajib diawal dan #fwbboy setelah fwbgirl)",
-      "value": "#fwbgirl #fwbboy #fwbadlt #fwbspill #fwbstory #ask"
+      "value": "#fwb #fwb #fwb #fwb #fwb"
     },
     "PIC_BOY": {
       "description": "gambar fwb boy",
-      "value": "https://telegra.ph/file/8098c9b0f89382b8c74a5.jpg"
+      "value": "https://telegra.ph/file/da2473bfece86a8965513.jpg"
     },
     "PIC_GIRL": {
       "description": "gambar fwb girl",
-      "value": "https://telegra.ph/file/8098c9b0f89382b8c74a5.jpg"
+      "value": "https://telegra.ph/file/923d278d047c750941180.jpg"
     },
     "PESAN_JOIN": {
       "description": "pesan join grup, atau akses ditolak",
@@ -119,7 +117,7 @@
     },
     "GAGAL_KIRIM": {
       "description": "pesan ketika hastag yang diketik tidak sesuai",
-      "value": "mention}, pesan mu gagal terkirim silahkan gunakan hastag:\n\n#fwbgirl Untuk cewe\n#fwbboy Untuk cowo\n#fwbadlt Untuk 18+\n#fwbspill Untuk pamer\n#fwbstory Untuk bercerita / curhat\n#ask Untuk bertanya"
+      "value": "mention}, pesan mu gagal terkirim silahkan gunakan hastag:\n\n#fwb Untuk cewe\n#fwb Untuk cowo\n#fwb Untuk 18+\n#fwb Untuk pamer\n#fwb Untuk bercerita / curhat\n#ask Untuk bertanya"
     }
   },
   "buildpacks": [
