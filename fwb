@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rm -rf *session *session-journal && pip3 uninstall Pyrogram -y && pip3 install Pyrogram==2.0.40 && python3 main.py
