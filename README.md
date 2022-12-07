@@ -54,5 +54,5 @@ python3 main.py
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/b6c43326d2aba54b16132.jpg">
+  <img src="https://telegra.ph/file/df5d15bfd9aa2c682a4e8.png">
 </p>
