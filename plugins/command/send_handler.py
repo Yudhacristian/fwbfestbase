@@ -36,10 +36,10 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
         caption = msg.text or msg.caption
         entities = msg.entities or msg.caption_entities
 #        if config.pic_boy.endswith(".jpg") or config.pic_girl.endswith(".jpg") or config.pic_adt.endswith(".jpg") or config.pic_spill.endswith(".jpg") or config.pic_story.endswith(".jpg") or config.pic_ask.endswith(".jpg"):
-#            try:
+            try:
                 kirim = await client.send_message(config.channel_1, caption)
-#            except:
-#                kirim =await client.send_message(config.channel_1, caption)
+            except:
+                kirim =await client.send_message(config.channel_1, caption)
         await helper.send_to_channel_log(type="log_channel", link=link + str(kirim.id))
         await db.update_menfess(coin, menfess, all_menfess)
         await msg.reply(f"pesan telah berhasil terkirim. hari ini kamu telah mengirim menfess sebanyak {menfess + 1}/{config.batas_kirim} . kamu dapat mengirim menfess sebanyak {config.batas_kirim} kali dalam sehari\n\nwaktu reset setiap jam 1 pagi\n<a href='{link + str(kirim.id)}'>check pesan kamu</a>")
