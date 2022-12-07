@@ -24,7 +24,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
         elif key == hastag[1]:
             picture = config.pic_boy
         elif key == hastag[1]:
-            picture = config.pic_adt
+            picture = config.pic_adlt
         elif key == hastag[1]:
             picture = config.pic_spill
         elif key == hastag[1]:
@@ -35,7 +35,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
         link = await get_link()
         caption = msg.text or msg.caption
         entities = msg.entities or msg.caption_entities
-        if config.pic_boy.endswith(".jpg") or config.pic_girl.endswith(".jpg") or config.pic_adt.endswith(".jpg") or config.pic_spill.endswith(".jpg") or config.pic_story.endswith(".jpg") or config.pic_ask.endswith(".jpg"):
+        if config.pic_boy.endswith(".jpg") or config.pic_girl.endswith(".jpg") or config.pic_adlt.endswith(".jpg") or config.pic_spill.endswith(".jpg") or config.pic_story.endswith(".jpg") or config.pic_ask.endswith(".jpg"):
             try:
                 kirim = await client.send_message(config.channel_1, caption)
             except:
