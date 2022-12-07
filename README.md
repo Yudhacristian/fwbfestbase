@@ -50,7 +50,7 @@ python3 main.py
 <a href="https://github.com/TeamKillerX"> <img src="https://img.shields.io/badge/TeamKillerX-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [FWB UNIVERSE](https://t.me/fewb3sss) ғᴏʀ [FWB BOT](https://t.me/FwbsssBot)_ </b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [FWB UNIVERSE](https://t.me/fewb3sss) ғᴏʀ [TEAMKILLERX](https://https://t.me/RendyProjects)_ </b>
 
 
 <p align="center">
