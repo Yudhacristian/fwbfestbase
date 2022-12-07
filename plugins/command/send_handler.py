@@ -23,13 +23,13 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
             picture = config.pic_girl
         elif key == hastag[1]:
             picture = config.pic_boy
-        elif key == hastag[1]:
+        elif key == hastag[2]:
             picture = config.pic_adlt
-        elif key == hastag[1]:
+        elif key == hastag[3]:
             picture = config.pic_spill
-        elif key == hastag[1]:
+        elif key == hastag[4]:
             picture = config.pic_story
-        elif key == hastag[1]:
+        elif key == hastag[5]:
             picture = config.pic_ask
         
         link = await get_link()
@@ -37,7 +37,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
         entities = msg.entities or msg.caption_entities
         if config.pic_boy.endswith(".jpg") or config.pic_girl.endswith(".jpg") or config.pic_adlt.endswith(".jpg") or config.pic_spill.endswith(".jpg") or config.pic_story.endswith(".jpg") or config.pic_ask.endswith(".jpg"):
             try:
-                kirim = await client.send_message(config.channel_1, caption)
+                kirim = await client.send_photo(config.channel_1, picture, caption, caption_entities=entities)
             except:
                 kirim =await client.send_message(config.channel_1, caption)
         await helper.send_to_channel_log(type="log_channel", link=link + str(kirim.id))
@@ -137,3 +137,5 @@ async def transfer_coin_handler(client: Client, msg: types.Message):
                 )
         else:
             return await msg.reply(f'<i>coin kamu ({my_coin}) tidak dapat transfer coin.</i>', True)
+
+# test bot
