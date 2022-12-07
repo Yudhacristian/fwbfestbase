@@ -38,7 +38,7 @@ async def cbstart(bot: Client, callback_query: CallbackQuery):
     aku = await bot.get_me()
     join = await bot.get_chat(config.channel_1)
     await callback_query.message.edit(
-            text=f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}. Silakan sampaikan pesanmu atau pap cute atau video konten positif kamu\n\nSebelum menggunakan silakan baca rules terlebih dahulu ya😉\n\nButuh bantuan? Hubungi @{config.owner}\n\n𝓣𝓮𝓽𝓪𝓹 𝓼𝓪𝓷𝓽𝓪𝓲 𝓼𝓪𝓶𝓫𝓲𝓵 𝓷𝓰𝓮𝓶𝓮𝓷𝓯𝓮𝓼𝓼 ☕",
+            text=f"Hallo! {aku.mention} akan membantumu untuk mengirimkan pesan secara anonim ke channel @{join.username}. Silakan sampaikan pesanmu atau pap cute atau video konten positif kamu\n\nSebelum menggunakan silakan baca rules terlebih dahulu ya😉",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
