@@ -153,7 +153,7 @@ async def on_message(client: Client, msg: Message):
 
             x = re.search(fr"(?:^|\s)({config.hastag})", command.lower())
             if x:
-                key = x.group(5)
+                key = x.group(1)
                 hastag = config.hastag.split('|')
                 member = database.get_data_pelanggan()
                 if member.status == 'banned':
